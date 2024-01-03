@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "HARRYP__.TTF";
+  src: url("./assets/HARRYP__.TTF");
+}
+
+body {
+  user-select: none;
+  font-family: "HARRYP__.TTF";
+  background-color: black;
+}

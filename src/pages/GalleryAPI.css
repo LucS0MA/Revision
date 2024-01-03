@@ -1,0 +1,41 @@
+.Welcome {
+  font-size: 4.5em;
+  transition: 0.6s;
+}
+
+.Gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-rows: repeat(5, 1fr); */
+  justify-items: center;
+  align-items: center;
+  gap: 10em;
+  margin: 5em;
+}
+
+.Images {
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.Images:hover {
+  transform: scale(1.05);
+  overflow: hidden;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  filter: grayscale(0%);
+}
+
+.Attributes {
+  font-size: 1.7em;
+  color: white;
+  text-align: center;
+}
+
+.Cards {
+  margin: auto;
+}
