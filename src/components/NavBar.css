@@ -1,0 +1,35 @@
+.header {
+  background-color: #434166;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  align-items: center;
+  color: white;
+  overflow: hidden;
+}
+.head-menu {
+  gap: 1em;
+  margin-right: 35px;
+  list-style: none;
+  display: flex;
+}
+.head-menu li {
+  color: white;
+  padding: 1em;
+  margin: 10px;
+}
+
+.head-menu li:hover {
+  font-weight: bolder;
+  text-shadow: 1px 1px 0px black;
+}
+
+.head-menu a {
+  color: black;
+  text-decoration: none;
+}
+
+.Logo1 {
+  height: 100px;
+  width: 100px;
+}
