@@ -13,3 +13,11 @@
   margin-right: auto;
   width: 50%;
 }
+
+body {
+  user-select: none;
+  font-family: "HARRYP__.TTF";
+  background-color: black;
+  background-image: url("../assets/one.jpg");
+  background-size: cover;
+}

@@ -3,8 +3,10 @@
   src: url("./assets/HARRYP__.TTF");
 }
 
-body {
+/* body {
   user-select: none;
   font-family: "HARRYP__.TTF";
   background-color: black;
-}
+  background-image: url("./assets/back4.jpg");
+  background-size: cover;
+} */
